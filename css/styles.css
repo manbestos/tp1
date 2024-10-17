@@ -1,0 +1,72 @@
+body{
+    background-image:  linear-gradient(rgba(31, 33, 182, 0.553), black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table, tr, th, td{
+    margin: auto;
+    border-style: none;
+    border-collapse: collapse;
+    margin-left: 250px;
+    margin-right: 250px;
+} 
+.Titre{
+    background-color: black;
+    color: white;
+    font-size: 200%;
+    padding: 15px;
+    text-align: center;
+}
+.synopsis, td{
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+}
+.distribution{
+    background-color: blue;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: large;
+}
+.afficheFilm{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.photoCE,.photoJR,.photoCH,.photoMR,.photoRD,.photoSJ,.photoTH{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        border-radius: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+       
+   }
+.photoCE{
+    background-image: url("../images/Chris_Evans.png");
+}
+.photoCH {
+
+    background-image: url("../images/Chris_Hemsworth.png");
+}
+.photoJR {
+    background-image: url("../images/Jeremy_Renner.png");
+}
+.photoMR{
+    background-image: url("../images/Mark_Ruffalo.png");
+}
+.photoRD{
+    background-image: url("../images/Robert_Downey_Jr..png");
+}
+.photoSJ{
+    background-image: url("../images/Scarlett_Johansson.png");
+}
+.photoTH{
+    background-image: url("../images/Tom_Hiddleston.png");
+}
+.perso{
+    color: blue;
+}
